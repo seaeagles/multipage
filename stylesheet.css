@@ -1,0 +1,145 @@
+
+/* Fonts */
+/* font-family: 'Manrope', sans-serif; */
+/* font-family: 'Kablammo', cursive; */
+
+#logo {
+    background-color: orangered;
+}
+button {
+    background-color: orangered;
+}
+#btn-holder img {
+    height: 15px;
+    width: 15px;
+    margin: 4px;
+    
+}
+header {
+    font-family: 'Manrope', sans-serif;
+}
+
+hr {
+    height: 10px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px orangered;
+}
+
+.meat {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Kablammo', cursive;
+}
+
+.message-form {
+    font-family: 'Kablammo', cursive;
+    margin: auto;
+    width: 50%;
+    padding: 15px;
+    text-align: center;
+}
+
+.text-animation {
+    animation: fade 2s ease-in-out infinite;
+  }
+  
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+.text-animation {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 2.5px;
+    font-family: 'Manrope', sans-serif;
+    position: fixed;
+    bottom: 0;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  footer li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+/*=====Navbar =====*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: orangered;
+}
+
+#search-bar {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  #search-text-input {
+    margin-right: 5px;
+  }
+
+  .right {
+    display: block;
+    float: right;
+    margin-left: 10px;
+  }
+  
+  .right:first-child {
+    clear: right;
+    margin-top: 5px;
+  }
+
